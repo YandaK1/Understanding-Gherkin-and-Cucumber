@@ -1,31 +1,59 @@
-📘 **Understanding Gherkin and Cucumber**
-------------------------------------------------------------
-📌 **Overview**
+<div align="center">
 
-This repository demonstrates the use of Gherkin syntax and Cucumber framework for Behavior-Driven Development (BDD). 
+# 📘 Understanding Gherkin and Cucumber BDD Automation Framework
+
+<h3>Cucumber + Gherkin | QA Automation Project</h3>
+
+<p>
+<img src="https://img.shields.io/badge/Node.js-18+-green?logo=node.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cucumber-BDD-brightgreen?logo=cucumber"/>
+<img src="https://img.shields.io/badge/Test-Automation-blue"/>
+<img src="https://img.shields.io/badge/Status-Active-success"/>
+<img src="https://img.shields.io/badge/QA-Engineer-purple"/>
+</p>
+
+</div>
+
+---
+
+<div align="center">
+
+## 📌 Overview
+
+</div>
+
+This repository demonstrates the use of **Gherkin syntax** and **Cucumber framework** for Behavior-Driven Development (BDD).
 
 It focuses on writing clear, human-readable test scenarios and automating them using modern testing tools.
 
 The goal is to bridge the gap between technical and non-technical stakeholders by using plain language to define system behavior.
 
-🎯 **Objectives**
+---
 
-Understand BDD principles
+<div align="center">
 
-Write test scenarios using Gherkin syntax
+## 🎯 Objectives
 
-Implement step definitions using Cucumber
+</div>
 
-Automate real-world test cases
+- Understand BDD principles  
+- Write test scenarios using Gherkin syntax  
+- Implement step definitions using Cucumber  
+- Automate real-world test cases  
+- Validate application behavior through end-to-end testing  
 
-Validate application behavior through end-to-end testing
+---
 
+<div align="center">
 
-🧠 **What is Gherkin?**
+## 🧠 What is Gherkin?
+
+</div>
 
 Gherkin is a domain-specific language used to describe software behavior in a structured, readable format.
 
-Example:
+**Example:**
+gherkin
 Feature: Wallet withdrawal validation
 
   Scenario: Successful withdrawal
@@ -35,63 +63,47 @@ Feature: Wallet withdrawal validation
     When the user attempts to withdraw 200
     
     Then the transaction status should be "SUCCESS"
-    
-⚙️ **What is Cucumber?**
+
+
+<div align="center">
+ <h2>⚙️ What is Cucumber?</h2>
+</div>
+
 
 Cucumber is a testing tool that executes Gherkin scenarios by mapping them to code (step definitions).
 
 It allows:
 
-1. Automated acceptance testing
-2. Clear collaboration between QA, Devs, and Business
-3. Reusable test steps
+Automated acceptance testing
+Clear collaboration between QA, Devs, and Business
+Reusable test steps
 
-🏗️ **Project Structure**
-📦 project-root
+</div>
 
- ┣ 📂 features
- 
- ┃ ┣ 📜 wallet.feature
- 
- ┃ ┗ 📂 step-definitions
- 
- ┃    ┗ 📜 wallet.ts
- 
- ┣ 📂 support
- 
- ┃ ┗ 📜 hooks.ts
- 
- ┣ 📜 package.json
- 
- ┣ 📜 tsconfig.json
- 
- ┗ 📜 README.md
- 
+<div align="center">
+<h2>🛠️ Tech Stack</h2>
+</div>
+<ul>
+<li>TypeScript</li>
+<li>Cucumber.js</li>
 
-🛠️ **Tech Stack**
+<li>Node.js</li>
+<li>Gherkin (BDD)</li>
+  </ul>
+<div align="center">
+<h2>📊 Key Learnings</h2>
+</div>
 
-TypeScript
+- Writing readable and maintainable test cases
 
-Cucumber.js
+- Mapping business requirements to automated tests
 
-Node.js
+- Structuring scalable automation frameworks
 
-Gherkin (BDD)
+- Identifying defects through scenario validation
 
-📊 **Key Learnings**
-Writing readable and maintainable test cases
+<div align="center">
+<h2>📄 License</h2>
+</div>
 
-Mapping business requirements to automated tests
-
-Structuring scalable automation frameworks
-
-Identifying defects through scenario validation
-
-
-📄 License
-
-This project is for educational purposes.
-
-👤 Author
-
-Yanda Kiviet
+- This project is for educational purposes.
